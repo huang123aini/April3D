@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in april3d_libs, no dependencies
+april3d in april3d_libs, depends on:
+ZERO_CHECK in april3d_libs (explicit)
+ALL_BUILD in april3d_libs, depends on:
+ZERO_CHECK in april3d_libs (explicit)
+april3d in april3d_libs (explicit)

@@ -1,0 +1,1238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3F8A9551809446009A8EE0B8 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 30092FEFE3004D4D92B0FF9C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7F9AD1D136071BB04DF6C97E /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		6781697CC92E49BCB18B05DE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3DBB671F55284CCDBCDF30D5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6B12D6D917A41E3FA8CB5872 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				1979BABBEDD04D4DB648336F /* PBXTargetDependency */,
+				7647CC8DC1F94C8788208F09 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0086E85C67394B2EB388BF89 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Macros.h */ = {isa = PBXBuildFile; fileRef = 4696882BF1874C92943ECF14 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Macros.h */; };
+		023622F86E454003B66894FD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/UtilsGL.cpp */ = {isa = PBXBuildFile; fileRef = EC18E5EC3E684B0CBAE2E691 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/UtilsGL.cpp */; };
+		02933D1A4A234B1B89BE0801 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CustomCommand.h */ = {isa = PBXBuildFile; fileRef = FEC76EF71CE94FEC8BF21F35 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CustomCommand.h */; };
+		02C10D8ACF4041889E7D4D40 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Texture.cpp */ = {isa = PBXBuildFile; fileRef = 07300453D37F4707AA42FCEE /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Texture.cpp */; };
+		02D08F2F8D4B4F3CBF0ABC5C /* /Users/huangshiping/Documents/GitHub/april/april/math/Mat4.cpp */ = {isa = PBXBuildFile; fileRef = 4E307E212AEA4F3595AC0390 /* /Users/huangshiping/Documents/GitHub/april/april/math/Mat4.cpp */; };
+		083B94CB4B314AABB64A8330 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramCache.h */ = {isa = PBXBuildFile; fileRef = C15510185D2142F491E285D5 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramCache.h */; };
+		0D1477FAF5B448CD8F178B72 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/VertexLayout.cpp */ = {isa = PBXBuildFile; fileRef = D3BE77612E924E2697D60DCE /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/VertexLayout.cpp */; };
+		0D472A86D8E745C0AB83AABA /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceGL.h */ = {isa = PBXBuildFile; fileRef = 64583632E0524F3BB6F7A1DB /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceGL.h */; };
+		112CC82BAFB447C2B1DAF713 /* /Users/huangshiping/Documents/GitHub/april/april/math/AffineTransform.h */ = {isa = PBXBuildFile; fileRef = B2C49278D6344ECF96D959FB /* /Users/huangshiping/Documents/GitHub/april/april/math/AffineTransform.h */; };
+		13C73697F41848E1979ADB45 /* /Users/huangshiping/Documents/GitHub/april/april/math/Geometry.cpp */ = {isa = PBXBuildFile; fileRef = F5A611687BE94195A1FFA5E6 /* /Users/huangshiping/Documents/GitHub/april/april/math/Geometry.cpp */; };
+		1526D5C2BD214ACEAC2EA2AF /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ShaderModuleGL.h */ = {isa = PBXBuildFile; fileRef = A314E5A93D764A589D597CEC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ShaderModuleGL.h */; };
+		15C52043178C44A98B60751F /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderModule.h */ = {isa = PBXBuildFile; fileRef = 37D2699736DE4FA1AA474CD7 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderModule.h */; };
+		182943A1B40047F690276632 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Camera.cpp */ = {isa = PBXBuildFile; fileRef = FDB28068EC3F4EE3B75F4C23 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Camera.cpp */; };
+		1C8A184A6D694A479020E5E6 /* /Users/huangshiping/Documents/GitHub/april/april/math/AffineTransform.cpp */ = {isa = PBXBuildFile; fileRef = 2B83A36BB34342FEA48A95CB /* /Users/huangshiping/Documents/GitHub/april/april/math/AffineTransform.cpp */; };
+		1CDFCE9A52B14F98B4EAB3F4 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/TextureGL.cpp */ = {isa = PBXBuildFile; fileRef = 8967B0AA864F48B2A543F178 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/TextureGL.cpp */; };
+		1CF2CF7664974D68B796C054 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/VertexLayout.h */ = {isa = PBXBuildFile; fileRef = 6827438847844EB682F2DD07 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/VertexLayout.h */; };
+		1D2F81A6230546E7B981D53A /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Technique.h */ = {isa = PBXBuildFile; fileRef = B3E0178330E647AE811336DA /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Technique.h */; };
+		1D5A88B16D6C4B0A999F27F7 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilUtils.h */ = {isa = PBXBuildFile; fileRef = 245A14E1944E4690AB173AF4 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilUtils.h */; };
+		1ED88DB62F884D829866F8ED /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ProgramGL.h */ = {isa = PBXBuildFile; fileRef = 7E5EE571DE3D4275B3F93194 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ProgramGL.h */; };
+		1F517FA1AF304CE98587FA38 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPassDescriptor.cpp */ = {isa = PBXBuildFile; fileRef = 14A85BD805BB4A16981481DD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPassDescriptor.cpp */; };
+		20665CA9551749CBB484D487 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Scene.cpp */ = {isa = PBXBuildFile; fileRef = F8502119AEBF407282D973F0 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Scene.cpp */; };
+		24FF3D0B79CF47198AE081D9 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderState.cpp */ = {isa = PBXBuildFile; fileRef = C644279705444796B822638D /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderState.cpp */; };
+		276EE107D29644EFB77153B3 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/QuadCommand.h */ = {isa = PBXBuildFile; fileRef = 354372CA80F94D9E94245E69 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/QuadCommand.h */; };
+		29AA929FD818419BB84EE5BD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Material.cpp */ = {isa = PBXBuildFile; fileRef = 02BD45D1C8EA44E788DF9DCD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Material.cpp */; };
+		2B3070435EC046F785E9429A /* /Users/huangshiping/Documents/GitHub/april/april/platform/Image.h */ = {isa = PBXBuildFile; fileRef = 19B58E15A3C4401AA6D2F17D /* /Users/huangshiping/Documents/GitHub/april/april/platform/Image.h */; };
+		2FADB27BB1E346C483E18D3D /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RHI.h */ = {isa = PBXBuildFile; fileRef = 2C523FFF73AB465DABFE9B51 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RHI.h */; };
+		32FEC7C489984427A888FEB7 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilTypes.cpp */ = {isa = PBXBuildFile; fileRef = 31303AE9CAC54BB89F6A2F08 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilTypes.cpp */; };
+		33E2DB28C0064BC7A0AD81E9 /* /Users/huangshiping/Documents/GitHub/april/april/math/MathUtil.h */ = {isa = PBXBuildFile; fileRef = 32BFF3CCC75245EFABE1E4A0 /* /Users/huangshiping/Documents/GitHub/april/april/math/MathUtil.h */; };
+		4066F70A009D4EDAB91A286A /* /Users/huangshiping/Documents/GitHub/april/april/renderer/GroupCommand.h */ = {isa = PBXBuildFile; fileRef = A565A49DDB2F4D2D8635580C /* /Users/huangshiping/Documents/GitHub/april/april/renderer/GroupCommand.h */; };
+		42E3D059FDE14454AE6DE501 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilPlatformDefine.h */ = {isa = PBXBuildFile; fileRef = 974996FE4CE544BBB2B6DC49 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilPlatformDefine.h */; };
+		4A117ADD58D64F07B21384A1 /* /Users/huangshiping/Documents/GitHub/april/april/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 434C7951AFF84522BD44A1B1 /* /Users/huangshiping/Documents/GitHub/april/april/CMakeLists.txt */; };
+		4B13B1B236EA40BDAA1A9200 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/CommandBuffer.h */ = {isa = PBXBuildFile; fileRef = C166747D0A324339BBF2F6AC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/CommandBuffer.h */; };
+		4B8005A07AB54CEE8CBF4F39 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Program.cpp */ = {isa = PBXBuildFile; fileRef = F3138950A0B442DCAD03411A /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Program.cpp */; };
+		4C026417A7B7463FBF8476D5 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramState.h */ = {isa = PBXBuildFile; fileRef = 32DC52EB4F80419BA5420220 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramState.h */; };
+		4C4DBCFF1C004C24921D9FB7 /* /Users/huangshiping/Documents/GitHub/april/april/math/MathBase.h */ = {isa = PBXBuildFile; fileRef = 12889450F61B4D999EADF62B /* /Users/huangshiping/Documents/GitHub/april/april/math/MathBase.h */; };
+		4DCE648DC42D4BDC93D8C188 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/MeshCommand.cpp */ = {isa = PBXBuildFile; fileRef = 97EF743BBB1C4957B60AB132 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/MeshCommand.cpp */; };
+		50846FD9AD1E44D5A622243E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceInfoGL.cpp */ = {isa = PBXBuildFile; fileRef = 91205EF00EA647E984918632 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceInfoGL.cpp */; };
+		54E24AF6CA714448858FD6D8 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilTypes.h */ = {isa = PBXBuildFile; fileRef = A4BCC326E562499B9E2E6BC2 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilTypes.h */; };
+		551B4711F93F4E6ABF130B53 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommand.cpp */ = {isa = PBXBuildFile; fileRef = 48B4E8FD3D6D499697141FD8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommand.cpp */; };
+		553D282FAFB14CA69EDBE001 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec2.h */ = {isa = PBXBuildFile; fileRef = 4AC5FF20357F4EEFAB298511 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec2.h */; };
+		58B72B662DC44EB6BF9C85B0 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Device.cpp */ = {isa = PBXBuildFile; fileRef = 4706078EA49A4E5C8D5DFFA4 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Device.cpp */; };
+		59F39AE435364E74BB8BD6CF /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommand.h */ = {isa = PBXBuildFile; fileRef = 2CEF4BB5E9BE43E99085BBC5 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommand.h */; };
+		5B01EC454CC84E4B891DC146 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DepthStencilStateGL.cpp */ = {isa = PBXBuildFile; fileRef = A7EFD7092CE343CBB8BEAB3E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DepthStencilStateGL.cpp */; };
+		5C4DC9BF0538442E9AF5F10B /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec4.h */ = {isa = PBXBuildFile; fileRef = 4E45BBF6FA5542D28CB44BEC /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec4.h */; };
+		5D046DFD72FB4650AFA053D5 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Types.cpp */ = {isa = PBXBuildFile; fileRef = 886A4C7E91C246298C826FC9 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Types.cpp */; };
+		5FB03DA9B97140D2990B5D05 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommandPool.h */ = {isa = PBXBuildFile; fileRef = BB64C46EFE984F6199CDAEE8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommandPool.h */; };
+		619BCBFCA30B41158CB8C5B8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderCache.h */ = {isa = PBXBuildFile; fileRef = D62869B806D44636870776C4 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderCache.h */; };
+		62F665FD5724474E9B548581 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Buffer.h */ = {isa = PBXBuildFile; fileRef = F11AC9153A4340489B1C7BAC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Buffer.h */; };
+		650DDBDCBF8C48CA94B185E7 /* /Users/huangshiping/Documents/GitHub/april/april/platform/ios/april_os_ios.h */ = {isa = PBXBuildFile; fileRef = A5CED44C6FC04F359DFEFB1B /* /Users/huangshiping/Documents/GitHub/april/april/platform/ios/april_os_ios.h */; };
+		667EA1F80D664DD59E040332 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/BufferGL.h */ = {isa = PBXBuildFile; fileRef = C30CD33F6D7F43B38375C6BD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/BufferGL.h */; };
+		67FDF016DDB042658FC026CD /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec3.cpp */ = {isa = PBXBuildFile; fileRef = 0249F18F7EE449E980257401 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec3.cpp */; };
+		6E3D4AA774FF43B6AB0849B0 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Pass.cpp */ = {isa = PBXBuildFile; fileRef = 8B5B4031170F4C47A5AB2608 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Pass.cpp */; };
+		6E9730371FD14807ADA738B2 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DepthStencilState.cpp */ = {isa = PBXBuildFile; fileRef = 17ECDEC1AD894A4AA9B059B1 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DepthStencilState.cpp */; };
+		6FF6361664424B8D9A255992 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Node.h */ = {isa = PBXBuildFile; fileRef = 084BBF459F1B43B5A027507B /* /Users/huangshiping/Documents/GitHub/april/april/scene/Node.h */; };
+		70264104C5AF4051ADE1113A /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/RenderPipelineGL.h */ = {isa = PBXBuildFile; fileRef = 40480953157D4EECBB1DDF8D /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/RenderPipelineGL.h */; };
+		729CE89DEEDC446ABA510CA7 /* /Users/huangshiping/Documents/GitHub/april/april/platform/FileUtils.h */ = {isa = PBXBuildFile; fileRef = FA64E8CE6ED649979483D110 /* /Users/huangshiping/Documents/GitHub/april/april/platform/FileUtils.h */; };
+		7C9ECAEFA35A44A18F11FE87 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilUtils.cpp */ = {isa = PBXBuildFile; fileRef = 7BCF8BD102CF4CB29D554E17 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilUtils.cpp */; };
+		7CF70987CC98455085E2D7CD /* /Users/huangshiping/Documents/GitHub/april/april/math/Vertex.cpp */ = {isa = PBXBuildFile; fileRef = B3C704B666F24897A46B1B07 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vertex.cpp */; };
+		7EFE24FAF8A749B9B5D95C37 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ShaderModuleGL.cpp */ = {isa = PBXBuildFile; fileRef = C9D5D34AF4B446A386928093 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ShaderModuleGL.cpp */; };
+		81A03D66580644FCB6D4CBC8 /* /Users/huangshiping/Documents/GitHub/april/april/platform/Image.cpp */ = {isa = PBXBuildFile; fileRef = E312DFFCB6C24389BAE0D979 /* /Users/huangshiping/Documents/GitHub/april/april/platform/Image.cpp */; };
+		8496ABABDE734BC0881F3817 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/RenderPipelineGL.cpp */ = {isa = PBXBuildFile; fileRef = 7837B2B891F54E8D8AB95E60 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/RenderPipelineGL.cpp */; };
+		84F83575D1944C70BD5DCDD9 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/QuadCommand.cpp */ = {isa = PBXBuildFile; fileRef = E60E6B308A7647B285DB2768 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/QuadCommand.cpp */; };
+		863444C5915E43F1B0CFE420 /* /Users/huangshiping/Documents/GitHub/april/april/april3d.cpp */ = {isa = PBXBuildFile; fileRef = 759B3CA2B1484F83A61F5D91 /* /Users/huangshiping/Documents/GitHub/april/april/april3d.cpp */; };
+		868A2DC7445648ED95035276 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec3.h */ = {isa = PBXBuildFile; fileRef = 7D8A76E2BBBA4A31A2634C41 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec3.h */; };
+		8804E80AF43343F5B02859FA /* /Users/huangshiping/Documents/GitHub/april/april/scene/Node.cpp */ = {isa = PBXBuildFile; fileRef = 418A5A93FDBF4E39A22859AF /* /Users/huangshiping/Documents/GitHub/april/april/scene/Node.cpp */; };
+		88EE5BDF2DC84177993B3B09 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Renderer.h */ = {isa = PBXBuildFile; fileRef = A0953D40B74049799C8DF7DB /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Renderer.h */; };
+		8CB8C6A1F7654F38BE6581A4 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilConfig.h */ = {isa = PBXBuildFile; fileRef = B552C01F45F341BCA1DE2ED9 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilConfig.h */; };
+		8CFAEBB8764A4F7E86CB8968 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceInfoGL.h */ = {isa = PBXBuildFile; fileRef = 31341F509F304EF1849E4DDC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceInfoGL.h */; };
+		942834DB2D90402387B4AEEA /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilMacros.h */ = {isa = PBXBuildFile; fileRef = DB43C0CC2D144065AC470924 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilMacros.h */; };
+		9481B0A621DD415BB3B56045 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Texture2D.cpp */ = {isa = PBXBuildFile; fileRef = 4CDACD0A6A82423F9FF749DD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Texture2D.cpp */; };
+		96F97A00EBD044D5A6D97A25 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/PipelineDescriptor.h */ = {isa = PBXBuildFile; fileRef = D3C30669810641DAAC3CBB1E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/PipelineDescriptor.h */; };
+		9982AED60E65415A8C93A82B /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramState.cpp */ = {isa = PBXBuildFile; fileRef = 11F1B24F5EFC49BB9D39BD5E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramState.cpp */; };
+		9AF55E23E2E34B2AB68CC3F0 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Texture2D.h */ = {isa = PBXBuildFile; fileRef = 45E968628DF0412F93CA0248 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Texture2D.h */; };
+		9AF9BDE1AC7A4B0FB9719CCA /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/BufferGL.cpp */ = {isa = PBXBuildFile; fileRef = 4474DFF471714E6096BEFCAE /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/BufferGL.cpp */; };
+		9BD50611CF184C6B96837FA5 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderState.h */ = {isa = PBXBuildFile; fileRef = 626AB5EA6BBC4CA2BAD44B72 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderState.h */; };
+		9BF0EFE9318F4F94866ADB9C /* /Users/huangshiping/Documents/GitHub/april/april/math/MathUtil.cpp */ = {isa = PBXBuildFile; fileRef = 774F0E07FA544E689AF8E8DD /* /Users/huangshiping/Documents/GitHub/april/april/math/MathUtil.cpp */; };
+		9D4270ADB2424DD9B8F5D4EB /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Texture.h */ = {isa = PBXBuildFile; fileRef = 2C2AC2E6C5D34937964C7C57 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Texture.h */; };
+		9EBAC70C259547E7810E4FB8 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec2.cpp */ = {isa = PBXBuildFile; fileRef = 83D18A45BF5F4524A8DB22A8 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec2.cpp */; };
+		A3136ED4B8F248EBBE6C4748 /* /Users/huangshiping/Documents/GitHub/april/april/base/AutoreleasePool.h */ = {isa = PBXBuildFile; fileRef = DA1085803E184042B619F4D6 /* /Users/huangshiping/Documents/GitHub/april/april/base/AutoreleasePool.h */; };
+		A3ADC953A0A24E6C93CB91DD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceGL.cpp */ = {isa = PBXBuildFile; fileRef = 4925E6FA11B7491F9BFFE35B /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceGL.cpp */; };
+		A6A73B9E60DE49DC8A972991 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/CommandBuffer.cpp */ = {isa = PBXBuildFile; fileRef = 3C76E86E835D4794AF081C23 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/CommandBuffer.cpp */; };
+		A74C0560004E404EA65CCDC8 /* /Users/huangshiping/Documents/GitHub/april/out/ios/CMakeFiles/april3d.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 8B321766B5E04C92ACD59930 /* /Users/huangshiping/Documents/GitHub/april/out/ios/CMakeFiles/april3d.dir/Info.plist */; };
+		ABEA4C1830C341FA95575BCE /* /Users/huangshiping/Documents/GitHub/april/april/base/AutoreleasePool.cpp */ = {isa = PBXBuildFile; fileRef = 3726AC40CE74484C8EE5D62C /* /Users/huangshiping/Documents/GitHub/april/april/base/AutoreleasePool.cpp */; };
+		AD4E20FF4FE243FA834BE2C5 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Shaders.cpp */ = {isa = PBXBuildFile; fileRef = FE52BB3D909143EE8F5F0379 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Shaders.cpp */; };
+		ADF3DF43AD1F48C4AE08A900 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/UtilsGL.h */ = {isa = PBXBuildFile; fileRef = FBBFD638CCAF4FA5952C9A52 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/UtilsGL.h */; };
+		B0CE69936CB2420C9C79C9F8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/CommandBufferGL.h */ = {isa = PBXBuildFile; fileRef = FBA8029F8EA24058A97879D2 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/CommandBufferGL.h */; };
+		B138D417FA814B8EA821E412 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Types.h */ = {isa = PBXBuildFile; fileRef = DF304917FB23494AA79183E8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Types.h */; };
+		B2D7FA34D7E94145A3EAA1B1 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CallbackCommand.h */ = {isa = PBXBuildFile; fileRef = 0352E8A1A28745C6818F2F5A /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CallbackCommand.h */; };
+		B2D8494321E44898870921BE /* /Users/huangshiping/Documents/GitHub/april/april/platform/AdjustBuffer.h */ = {isa = PBXBuildFile; fileRef = CF41C7B51607472C85E7C5AE /* /Users/huangshiping/Documents/GitHub/april/april/platform/AdjustBuffer.h */; };
+		B73534C08EFA45A48CE2FABA /* /Users/huangshiping/Documents/GitHub/april/april/math/Quaternion.cpp */ = {isa = PBXBuildFile; fileRef = F45CD7CAEF324C4CA8E653E5 /* /Users/huangshiping/Documents/GitHub/april/april/math/Quaternion.cpp */; };
+		B8B0C0687C18443E898B3AE8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPassDescriptor.h */ = {isa = PBXBuildFile; fileRef = 4B38D31729F142FB97EC1C2B /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPassDescriptor.h */; };
+		B8F397CC14884BFAA59AEDBE /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DeviceInfo.h */ = {isa = PBXBuildFile; fileRef = CDCD1E3B183D472DAC3ED5F9 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DeviceInfo.h */; };
+		BC00FAE068F442B694D6F791 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Technique.cpp */ = {isa = PBXBuildFile; fileRef = AEEAA37C13414D8B946BAD29 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Technique.cpp */; };
+		BD754C880FAD41ACADAD8CF9 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilPlatformMacros.h */ = {isa = PBXBuildFile; fileRef = 2CFA1AB4171049A6A40A8086 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilPlatformMacros.h */; };
+		BE8080BD2102409AADCA53B1 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DepthStencilState.h */ = {isa = PBXBuildFile; fileRef = FB26802DE3664F94B6FC7568 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DepthStencilState.h */; };
+		BEC635502F3E43F68F819959 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Material.h */ = {isa = PBXBuildFile; fileRef = DC8244E62F094063AC54E326 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Material.h */; };
+		C02183253841447383BE6FFB /* /Users/huangshiping/Documents/GitHub/april/april/scene/Scene.h */ = {isa = PBXBuildFile; fileRef = 589C23DF26124452BBA3394C /* /Users/huangshiping/Documents/GitHub/april/april/scene/Scene.h */; };
+		C05C05B919AD4C5F861DD7C2 /* /Users/huangshiping/Documents/GitHub/april/april/base/Ref.cpp */ = {isa = PBXBuildFile; fileRef = DCA5429FB0A648D3AF40F6C9 /* /Users/huangshiping/Documents/GitHub/april/april/base/Ref.cpp */; };
+		C54152CB22BC45D7B15F51DD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/TextureGL.h */ = {isa = PBXBuildFile; fileRef = B9735CA0CC234A0E9DA5BBD8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/TextureGL.h */; };
+		CA43E831394C4D98A0A7C44B /* /Users/huangshiping/Documents/GitHub/april/april/scene/Camera.h */ = {isa = PBXBuildFile; fileRef = 96B5D3A921E84D15B7BEBE15 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Camera.h */; };
+		CCB1BC4308AB422A9C5A3494 /* /Users/huangshiping/Documents/GitHub/april/april/math/Mat4.h */ = {isa = PBXBuildFile; fileRef = 4E5856EA6D3D403BB938452B /* /Users/huangshiping/Documents/GitHub/april/april/math/Mat4.h */; };
+		D53FC0C1CA1C4B22BCD13262 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/CommandBufferGL.cpp */ = {isa = PBXBuildFile; fileRef = 8E738D48CB89403789086FFC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/CommandBufferGL.cpp */; };
+		D786303CF08B43AA8F1A4CD1 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramCache.cpp */ = {isa = PBXBuildFile; fileRef = 61D7CB908D8C41A49961C0F1 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramCache.cpp */; };
+		D8D897A8759042398D2DDAD1 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderModule.cpp */ = {isa = PBXBuildFile; fileRef = D3679DE46EF84A5C8AB4856D /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderModule.cpp */; };
+		D947A0B6A47E45209E153860 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec4.cpp */ = {isa = PBXBuildFile; fileRef = 31CE1F8465FD418EBE0BF308 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec4.cpp */; };
+		D94C9CEEEBEA450FB54EE62E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Pass.h */ = {isa = PBXBuildFile; fileRef = E7BC47B644C042B386BDA02B /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Pass.h */; };
+		DA491D29DCBF4C15BB935A82 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPipelineDescriptor.h */ = {isa = PBXBuildFile; fileRef = 25ED0D3E2A414FBC956C51AD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPipelineDescriptor.h */; };
+		DAAE6829671444789B2AA67C /* /Users/huangshiping/Documents/GitHub/april/april/april3d.h */ = {isa = PBXBuildFile; fileRef = C357D2841F414D13BE257ACE /* /Users/huangshiping/Documents/GitHub/april/april/april3d.h */; };
+		DD771E6E3DC348F299DB9768 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Shaders.h */ = {isa = PBXBuildFile; fileRef = EA441416209A4F53A0609ADD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Shaders.h */; };
+		E0B25291E0B6430F8E8EF3C5 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilGL.h */ = {isa = PBXBuildFile; fileRef = 961061A2BE754988BCD45703 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilGL.h */; };
+		E19B6DFDBFD24DF1A3AD7AC1 /* /Users/huangshiping/Documents/GitHub/april/april/math/Geometry.h */ = {isa = PBXBuildFile; fileRef = C95A8F0A66374050A4B9F87D /* /Users/huangshiping/Documents/GitHub/april/april/math/Geometry.h */; };
+		E2D68577D82D4F31A05DD49E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/GroupCommand.cpp */ = {isa = PBXBuildFile; fileRef = E15EEE76A71F41508806E46A /* /Users/huangshiping/Documents/GitHub/april/april/renderer/GroupCommand.cpp */; };
+		E2D746810C144CC5BB137B9C /* /Users/huangshiping/Documents/GitHub/april/april/math/Quaternion.h */ = {isa = PBXBuildFile; fileRef = 3AB49C6FB929498C83C77B87 /* /Users/huangshiping/Documents/GitHub/april/april/math/Quaternion.h */; };
+		E322BCE1A5EA431FA9F37E09 /* /Users/huangshiping/Documents/GitHub/april/april/platform/FileUtils.cpp */ = {isa = PBXBuildFile; fileRef = B32A004E786447E2A0E8E45D /* /Users/huangshiping/Documents/GitHub/april/april/platform/FileUtils.cpp */; };
+		E414DF244C554255B557B00C /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPipeline.h */ = {isa = PBXBuildFile; fileRef = 27CB2A5C6BD24F48BC21A071 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPipeline.h */; };
+		E56F1AF5D86F44A5AD40EBD7 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Renderer.cpp */ = {isa = PBXBuildFile; fileRef = B781EECC40164BE8B1473D43 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Renderer.cpp */; };
+		E5E51B15C64D48148C1C172E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DepthStencilStateGL.h */ = {isa = PBXBuildFile; fileRef = A48397398043492BA5943784 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DepthStencilStateGL.h */; };
+		E688C9E322D44B4BBADE0348 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ProgramGL.cpp */ = {isa = PBXBuildFile; fileRef = E5A247A57D9D43269F3F3822 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ProgramGL.cpp */; };
+		EA07BC4B9CDD43F4805A8D13 /* /Users/huangshiping/Documents/GitHub/april/april/base/Director.h */ = {isa = PBXBuildFile; fileRef = A977BFFDD73D429B88252333 /* /Users/huangshiping/Documents/GitHub/april/april/base/Director.h */; };
+		EB0B51DC189B4684BB77277A /* /Users/huangshiping/Documents/GitHub/april/april/math/Vertex.h */ = {isa = PBXBuildFile; fileRef = FCBEFE900C284218910B5151 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vertex.h */; };
+		EDFCA2CFDCF948F1837A4408 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Device.h */ = {isa = PBXBuildFile; fileRef = C1B6F2C8350C4AAD8E65A664 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Device.h */; };
+		F0E48D029CAC46898AB3E7B2 /* /Users/huangshiping/Documents/GitHub/april/april/math/TransformUtils.h */ = {isa = PBXBuildFile; fileRef = 05D531847E4C4D108605DD27 /* /Users/huangshiping/Documents/GitHub/april/april/math/TransformUtils.h */; };
+		F1F118170BF1495199061A91 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilPlatformConfig.h */ = {isa = PBXBuildFile; fileRef = 16739AEEF1A6487AB0E5D322 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilPlatformConfig.h */; };
+		F47FD1003FCA4B36AD3EAB35 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderCache.cpp */ = {isa = PBXBuildFile; fileRef = 389BF4FB08694848A2C68CB8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderCache.cpp */; };
+		F6A7A838EF3A4B489C9DC70E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CustomCommand.cpp */ = {isa = PBXBuildFile; fileRef = ABBCF21931E84CBCA2C21931 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CustomCommand.cpp */; };
+		F6BEBBB89C084E27A3445E3C /* /Users/huangshiping/Documents/GitHub/april/april/renderer/MeshCommand.h */ = {isa = PBXBuildFile; fileRef = 2F83FF2A678B495D827BEEC7 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/MeshCommand.h */; };
+		F7E73EE4E3124AA7A7F41EFD /* /Users/huangshiping/Documents/GitHub/april/april/base/Ref.h */ = {isa = PBXBuildFile; fileRef = FB6F2A20ED714F539E7F01B6 /* /Users/huangshiping/Documents/GitHub/april/april/base/Ref.h */; };
+		F9B09022E0484B2B838B5CA7 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CallbackCommand.cpp */ = {isa = PBXBuildFile; fileRef = D58F27980F244FC0BAF11047 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CallbackCommand.cpp */; };
+		FD5B2E91956A4F66A9E054F2 /* /Users/huangshiping/Documents/GitHub/april/april/base/Director.cpp */ = {isa = PBXBuildFile; fileRef = 3D2E9B7EC53D4109BAF55B4D /* /Users/huangshiping/Documents/GitHub/april/april/base/Director.cpp */; };
+		FDC5D9D8F5684CBCB94FF700 /* /Users/huangshiping/Documents/GitHub/april/april/math/Math.h */ = {isa = PBXBuildFile; fileRef = 341B2995A82340CAB57866C3 /* /Users/huangshiping/Documents/GitHub/april/april/math/Math.h */; };
+		FE78B6B54E8744EC979202D7 /* /Users/huangshiping/Documents/GitHub/april/april/platform/ios/gles_ios.h */ = {isa = PBXBuildFile; fileRef = 3FC3AF5C31AC4FB89379DD21 /* /Users/huangshiping/Documents/GitHub/april/april/platform/ios/gles_ios.h */; };
+		FEC676E0A5F24268B6C02329 /* /Users/huangshiping/Documents/GitHub/april/april/math/TransformUtils.cpp */ = {isa = PBXBuildFile; fileRef = 2F3ADD45EA7B4A53B58C8A77 /* /Users/huangshiping/Documents/GitHub/april/april/math/TransformUtils.cpp */; };
+		FEE72009D06C4E6F9941A241 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Program.h */ = {isa = PBXBuildFile; fileRef = 9FACF683A2F04D5FA75160BC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Program.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1D2F9FCAA0084E8CA8B66044 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		78294F9783BB4B68B78C970D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		9FA84467A9D340C891479ADA /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		A408DA3EC0884909915673C4 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		351CF3E35450437D88B7135B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2991B1EEC0A49C4A14126DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 216B0DFB8D2A4CDA8F269DA4;
+			remoteInfo = april3d;
+		};
+		64C8A0A29F45435BB13CC192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2991B1EEC0A49C4A14126DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8A9551809446009A8EE0B8;
+			remoteInfo = ZERO_CHECK;
+		};
+		D84D710286F749DBB7DDF17E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2991B1EEC0A49C4A14126DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8A9551809446009A8EE0B8;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0249F18F7EE449E980257401 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vec3.cpp; path = math/Vec3.cpp; sourceTree = SOURCE_ROOT; };
+		02BD45D1C8EA44E788DF9DCD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Material.cpp; path = renderer/Material.cpp; sourceTree = SOURCE_ROOT; };
+		0352E8A1A28745C6818F2F5A /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CallbackCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CallbackCommand.h; path = renderer/CallbackCommand.h; sourceTree = SOURCE_ROOT; };
+		05D531847E4C4D108605DD27 /* /Users/huangshiping/Documents/GitHub/april/april/math/TransformUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TransformUtils.h; path = math/TransformUtils.h; sourceTree = SOURCE_ROOT; };
+		07300453D37F4707AA42FCEE /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Texture.cpp; path = renderer/backend/Texture.cpp; sourceTree = SOURCE_ROOT; };
+		084BBF459F1B43B5A027507B /* /Users/huangshiping/Documents/GitHub/april/april/scene/Node.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Node.h; path = scene/Node.h; sourceTree = SOURCE_ROOT; };
+		11F1B24F5EFC49BB9D39BD5E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramState.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProgramState.cpp; path = renderer/backend/ProgramState.cpp; sourceTree = SOURCE_ROOT; };
+		12889450F61B4D999EADF62B /* /Users/huangshiping/Documents/GitHub/april/april/math/MathBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MathBase.h; path = math/MathBase.h; sourceTree = SOURCE_ROOT; };
+		14A85BD805BB4A16981481DD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPassDescriptor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderPassDescriptor.cpp; path = renderer/backend/RenderPassDescriptor.cpp; sourceTree = SOURCE_ROOT; };
+		16739AEEF1A6487AB0E5D322 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilPlatformConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AprilPlatformConfig.h; path = platform/AprilPlatformConfig.h; sourceTree = SOURCE_ROOT; };
+		17ECDEC1AD894A4AA9B059B1 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DepthStencilState.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DepthStencilState.cpp; path = renderer/backend/DepthStencilState.cpp; sourceTree = SOURCE_ROOT; };
+		19B58E15A3C4401AA6D2F17D /* /Users/huangshiping/Documents/GitHub/april/april/platform/Image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Image.h; path = platform/Image.h; sourceTree = SOURCE_ROOT; };
+		1C482424E0DE449C835C6456 /* /Users/huangshiping/Documents/GitHub/april/april/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		245A14E1944E4690AB173AF4 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = aprilUtils.h; path = base/aprilUtils.h; sourceTree = SOURCE_ROOT; };
+		25ED0D3E2A414FBC956C51AD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPipelineDescriptor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RenderPipelineDescriptor.h; path = renderer/backend/RenderPipelineDescriptor.h; sourceTree = SOURCE_ROOT; };
+		27CB2A5C6BD24F48BC21A071 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPipeline.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RenderPipeline.h; path = renderer/backend/RenderPipeline.h; sourceTree = SOURCE_ROOT; };
+		2B83A36BB34342FEA48A95CB /* /Users/huangshiping/Documents/GitHub/april/april/math/AffineTransform.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AffineTransform.cpp; path = math/AffineTransform.cpp; sourceTree = SOURCE_ROOT; };
+		2C2AC2E6C5D34937964C7C57 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Texture.h; path = renderer/backend/Texture.h; sourceTree = SOURCE_ROOT; };
+		2C523FFF73AB465DABFE9B51 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RHI.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RHI.h; path = renderer/backend/RHI.h; sourceTree = SOURCE_ROOT; };
+		2CEF4BB5E9BE43E99085BBC5 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RenderCommand.h; path = renderer/RenderCommand.h; sourceTree = SOURCE_ROOT; };
+		2CFA1AB4171049A6A40A8086 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilPlatformMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AprilPlatformMacros.h; path = platform/AprilPlatformMacros.h; sourceTree = SOURCE_ROOT; };
+		2F3ADD45EA7B4A53B58C8A77 /* /Users/huangshiping/Documents/GitHub/april/april/math/TransformUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TransformUtils.cpp; path = math/TransformUtils.cpp; sourceTree = SOURCE_ROOT; };
+		2F83FF2A678B495D827BEEC7 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/MeshCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MeshCommand.h; path = renderer/MeshCommand.h; sourceTree = SOURCE_ROOT; };
+		31303AE9CAC54BB89F6A2F08 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = aprilTypes.cpp; path = base/aprilTypes.cpp; sourceTree = SOURCE_ROOT; };
+		31341F509F304EF1849E4DDC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceInfoGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DeviceInfoGL.h; path = renderer/backend/opengl/DeviceInfoGL.h; sourceTree = SOURCE_ROOT; };
+		31CE1F8465FD418EBE0BF308 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vec4.cpp; path = math/Vec4.cpp; sourceTree = SOURCE_ROOT; };
+		32BFF3CCC75245EFABE1E4A0 /* /Users/huangshiping/Documents/GitHub/april/april/math/MathUtil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MathUtil.h; path = math/MathUtil.h; sourceTree = SOURCE_ROOT; };
+		32DC52EB4F80419BA5420220 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramState.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ProgramState.h; path = renderer/backend/ProgramState.h; sourceTree = SOURCE_ROOT; };
+		341B2995A82340CAB57866C3 /* /Users/huangshiping/Documents/GitHub/april/april/math/Math.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Math.h; path = math/Math.h; sourceTree = SOURCE_ROOT; };
+		354372CA80F94D9E94245E69 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/QuadCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = QuadCommand.h; path = renderer/QuadCommand.h; sourceTree = SOURCE_ROOT; };
+		3726AC40CE74484C8EE5D62C /* /Users/huangshiping/Documents/GitHub/april/april/base/AutoreleasePool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AutoreleasePool.cpp; path = base/AutoreleasePool.cpp; sourceTree = SOURCE_ROOT; };
+		37D2699736DE4FA1AA474CD7 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderModule.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ShaderModule.h; path = renderer/backend/ShaderModule.h; sourceTree = SOURCE_ROOT; };
+		389BF4FB08694848A2C68CB8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ShaderCache.cpp; path = renderer/backend/ShaderCache.cpp; sourceTree = SOURCE_ROOT; };
+		3AB49C6FB929498C83C77B87 /* /Users/huangshiping/Documents/GitHub/april/april/math/Quaternion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Quaternion.h; path = math/Quaternion.h; sourceTree = SOURCE_ROOT; };
+		3C76E86E835D4794AF081C23 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/CommandBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CommandBuffer.cpp; path = renderer/backend/CommandBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		3D2E9B7EC53D4109BAF55B4D /* /Users/huangshiping/Documents/GitHub/april/april/base/Director.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Director.cpp; path = base/Director.cpp; sourceTree = SOURCE_ROOT; };
+		3FC3AF5C31AC4FB89379DD21 /* /Users/huangshiping/Documents/GitHub/april/april/platform/ios/gles_ios.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gles_ios.h; path = platform/ios/gles_ios.h; sourceTree = SOURCE_ROOT; };
+		40480953157D4EECBB1DDF8D /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/RenderPipelineGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RenderPipelineGL.h; path = renderer/backend/opengl/RenderPipelineGL.h; sourceTree = SOURCE_ROOT; };
+		418A5A93FDBF4E39A22859AF /* /Users/huangshiping/Documents/GitHub/april/april/scene/Node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Node.cpp; path = scene/Node.cpp; sourceTree = SOURCE_ROOT; };
+		434C7951AFF84522BD44A1B1 /* /Users/huangshiping/Documents/GitHub/april/april/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4474DFF471714E6096BEFCAE /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/BufferGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BufferGL.cpp; path = renderer/backend/opengl/BufferGL.cpp; sourceTree = SOURCE_ROOT; };
+		45E968628DF0412F93CA0248 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Texture2D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Texture2D.h; path = renderer/Texture2D.h; sourceTree = SOURCE_ROOT; };
+		4696882BF1874C92943ECF14 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Macros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Macros.h; path = renderer/backend/Macros.h; sourceTree = SOURCE_ROOT; };
+		4706078EA49A4E5C8D5DFFA4 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Device.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Device.cpp; path = renderer/backend/Device.cpp; sourceTree = SOURCE_ROOT; };
+		48B4E8FD3D6D499697141FD8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderCommand.cpp; path = renderer/RenderCommand.cpp; sourceTree = SOURCE_ROOT; };
+		4925E6FA11B7491F9BFFE35B /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DeviceGL.cpp; path = renderer/backend/opengl/DeviceGL.cpp; sourceTree = SOURCE_ROOT; };
+		4AC5FF20357F4EEFAB298511 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vec2.h; path = math/Vec2.h; sourceTree = SOURCE_ROOT; };
+		4B38D31729F142FB97EC1C2B /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPassDescriptor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RenderPassDescriptor.h; path = renderer/backend/RenderPassDescriptor.h; sourceTree = SOURCE_ROOT; };
+		4CDACD0A6A82423F9FF749DD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Texture2D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Texture2D.cpp; path = renderer/Texture2D.cpp; sourceTree = SOURCE_ROOT; };
+		4E307E212AEA4F3595AC0390 /* /Users/huangshiping/Documents/GitHub/april/april/math/Mat4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Mat4.cpp; path = math/Mat4.cpp; sourceTree = SOURCE_ROOT; };
+		4E45BBF6FA5542D28CB44BEC /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vec4.h; path = math/Vec4.h; sourceTree = SOURCE_ROOT; };
+		4E5856EA6D3D403BB938452B /* /Users/huangshiping/Documents/GitHub/april/april/math/Mat4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Mat4.h; path = math/Mat4.h; sourceTree = SOURCE_ROOT; };
+		589C23DF26124452BBA3394C /* /Users/huangshiping/Documents/GitHub/april/april/scene/Scene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Scene.h; path = scene/Scene.h; sourceTree = SOURCE_ROOT; };
+		61D7CB908D8C41A49961C0F1 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProgramCache.cpp; path = renderer/backend/ProgramCache.cpp; sourceTree = SOURCE_ROOT; };
+		626AB5EA6BBC4CA2BAD44B72 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderState.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RenderState.h; path = renderer/RenderState.h; sourceTree = SOURCE_ROOT; };
+		64583632E0524F3BB6F7A1DB /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DeviceGL.h; path = renderer/backend/opengl/DeviceGL.h; sourceTree = SOURCE_ROOT; };
+		6827438847844EB682F2DD07 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/VertexLayout.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = VertexLayout.h; path = renderer/backend/VertexLayout.h; sourceTree = SOURCE_ROOT; };
+		6B081D7820E84D00A43582F5 /* april3d */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libapril3d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		759B3CA2B1484F83A61F5D91 /* /Users/huangshiping/Documents/GitHub/april/april/april3d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = april3d.cpp; path = april3d.cpp; sourceTree = SOURCE_ROOT; };
+		774F0E07FA544E689AF8E8DD /* /Users/huangshiping/Documents/GitHub/april/april/math/MathUtil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MathUtil.cpp; path = math/MathUtil.cpp; sourceTree = SOURCE_ROOT; };
+		7837B2B891F54E8D8AB95E60 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/RenderPipelineGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderPipelineGL.cpp; path = renderer/backend/opengl/RenderPipelineGL.cpp; sourceTree = SOURCE_ROOT; };
+		7BCF8BD102CF4CB29D554E17 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = aprilUtils.cpp; path = base/aprilUtils.cpp; sourceTree = SOURCE_ROOT; };
+		7D8A76E2BBBA4A31A2634C41 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vec3.h; path = math/Vec3.h; sourceTree = SOURCE_ROOT; };
+		7E5EE571DE3D4275B3F93194 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ProgramGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ProgramGL.h; path = renderer/backend/opengl/ProgramGL.h; sourceTree = SOURCE_ROOT; };
+		83D18A45BF5F4524A8DB22A8 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vec2.cpp; path = math/Vec2.cpp; sourceTree = SOURCE_ROOT; };
+		886A4C7E91C246298C826FC9 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Types.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Types.cpp; path = renderer/backend/Types.cpp; sourceTree = SOURCE_ROOT; };
+		8967B0AA864F48B2A543F178 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/TextureGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextureGL.cpp; path = renderer/backend/opengl/TextureGL.cpp; sourceTree = SOURCE_ROOT; };
+		8B321766B5E04C92ACD59930 /* /Users/huangshiping/Documents/GitHub/april/out/ios/CMakeFiles/april3d.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../out/ios/CMakeFiles/april3d.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		8B5B4031170F4C47A5AB2608 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Pass.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Pass.cpp; path = renderer/Pass.cpp; sourceTree = SOURCE_ROOT; };
+		8E738D48CB89403789086FFC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/CommandBufferGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CommandBufferGL.cpp; path = renderer/backend/opengl/CommandBufferGL.cpp; sourceTree = SOURCE_ROOT; };
+		91205EF00EA647E984918632 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceInfoGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DeviceInfoGL.cpp; path = renderer/backend/opengl/DeviceInfoGL.cpp; sourceTree = SOURCE_ROOT; };
+		961061A2BE754988BCD45703 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AprilGL.h; path = platform/AprilGL.h; sourceTree = SOURCE_ROOT; };
+		96B5D3A921E84D15B7BEBE15 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Camera.h; path = scene/Camera.h; sourceTree = SOURCE_ROOT; };
+		974996FE4CE544BBB2B6DC49 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilPlatformDefine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AprilPlatformDefine.h; path = platform/AprilPlatformDefine.h; sourceTree = SOURCE_ROOT; };
+		97EF743BBB1C4957B60AB132 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/MeshCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MeshCommand.cpp; path = renderer/MeshCommand.cpp; sourceTree = SOURCE_ROOT; };
+		9FACF683A2F04D5FA75160BC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Program.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Program.h; path = renderer/backend/Program.h; sourceTree = SOURCE_ROOT; };
+		A0953D40B74049799C8DF7DB /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Renderer.h; path = renderer/Renderer.h; sourceTree = SOURCE_ROOT; };
+		A314E5A93D764A589D597CEC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ShaderModuleGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ShaderModuleGL.h; path = renderer/backend/opengl/ShaderModuleGL.h; sourceTree = SOURCE_ROOT; };
+		A48397398043492BA5943784 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DepthStencilStateGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DepthStencilStateGL.h; path = renderer/backend/opengl/DepthStencilStateGL.h; sourceTree = SOURCE_ROOT; };
+		A4BCC326E562499B9E2E6BC2 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = aprilTypes.h; path = base/aprilTypes.h; sourceTree = SOURCE_ROOT; };
+		A565A49DDB2F4D2D8635580C /* /Users/huangshiping/Documents/GitHub/april/april/renderer/GroupCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GroupCommand.h; path = renderer/GroupCommand.h; sourceTree = SOURCE_ROOT; };
+		A5CED44C6FC04F359DFEFB1B /* /Users/huangshiping/Documents/GitHub/april/april/platform/ios/april_os_ios.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = april_os_ios.h; path = platform/ios/april_os_ios.h; sourceTree = SOURCE_ROOT; };
+		A7EFD7092CE343CBB8BEAB3E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DepthStencilStateGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DepthStencilStateGL.cpp; path = renderer/backend/opengl/DepthStencilStateGL.cpp; sourceTree = SOURCE_ROOT; };
+		A977BFFDD73D429B88252333 /* /Users/huangshiping/Documents/GitHub/april/april/base/Director.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Director.h; path = base/Director.h; sourceTree = SOURCE_ROOT; };
+		ABBCF21931E84CBCA2C21931 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CustomCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CustomCommand.cpp; path = renderer/CustomCommand.cpp; sourceTree = SOURCE_ROOT; };
+		AEEAA37C13414D8B946BAD29 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Technique.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Technique.cpp; path = renderer/Technique.cpp; sourceTree = SOURCE_ROOT; };
+		B2C49278D6344ECF96D959FB /* /Users/huangshiping/Documents/GitHub/april/april/math/AffineTransform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AffineTransform.h; path = math/AffineTransform.h; sourceTree = SOURCE_ROOT; };
+		B32A004E786447E2A0E8E45D /* /Users/huangshiping/Documents/GitHub/april/april/platform/FileUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FileUtils.cpp; path = platform/FileUtils.cpp; sourceTree = SOURCE_ROOT; };
+		B3C704B666F24897A46B1B07 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vertex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vertex.cpp; path = math/Vertex.cpp; sourceTree = SOURCE_ROOT; };
+		B3E0178330E647AE811336DA /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Technique.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Technique.h; path = renderer/Technique.h; sourceTree = SOURCE_ROOT; };
+		B552C01F45F341BCA1DE2ED9 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = aprilConfig.h; path = base/aprilConfig.h; sourceTree = SOURCE_ROOT; };
+		B781EECC40164BE8B1473D43 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Renderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Renderer.cpp; path = renderer/Renderer.cpp; sourceTree = SOURCE_ROOT; };
+		B9735CA0CC234A0E9DA5BBD8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/TextureGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TextureGL.h; path = renderer/backend/opengl/TextureGL.h; sourceTree = SOURCE_ROOT; };
+		BB64C46EFE984F6199CDAEE8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommandPool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RenderCommandPool.h; path = renderer/RenderCommandPool.h; sourceTree = SOURCE_ROOT; };
+		C15510185D2142F491E285D5 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramCache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ProgramCache.h; path = renderer/backend/ProgramCache.h; sourceTree = SOURCE_ROOT; };
+		C166747D0A324339BBF2F6AC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/CommandBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CommandBuffer.h; path = renderer/backend/CommandBuffer.h; sourceTree = SOURCE_ROOT; };
+		C1B6F2C8350C4AAD8E65A664 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Device.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Device.h; path = renderer/backend/Device.h; sourceTree = SOURCE_ROOT; };
+		C30CD33F6D7F43B38375C6BD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/BufferGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BufferGL.h; path = renderer/backend/opengl/BufferGL.h; sourceTree = SOURCE_ROOT; };
+		C357D2841F414D13BE257ACE /* /Users/huangshiping/Documents/GitHub/april/april/april3d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = april3d.h; path = april3d.h; sourceTree = SOURCE_ROOT; };
+		C644279705444796B822638D /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderState.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderState.cpp; path = renderer/RenderState.cpp; sourceTree = SOURCE_ROOT; };
+		C95A8F0A66374050A4B9F87D /* /Users/huangshiping/Documents/GitHub/april/april/math/Geometry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Geometry.h; path = math/Geometry.h; sourceTree = SOURCE_ROOT; };
+		C9D5D34AF4B446A386928093 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ShaderModuleGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ShaderModuleGL.cpp; path = renderer/backend/opengl/ShaderModuleGL.cpp; sourceTree = SOURCE_ROOT; };
+		CDCD1E3B183D472DAC3ED5F9 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DeviceInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DeviceInfo.h; path = renderer/backend/DeviceInfo.h; sourceTree = SOURCE_ROOT; };
+		CF41C7B51607472C85E7C5AE /* /Users/huangshiping/Documents/GitHub/april/april/platform/AdjustBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AdjustBuffer.h; path = platform/AdjustBuffer.h; sourceTree = SOURCE_ROOT; };
+		D3679DE46EF84A5C8AB4856D /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderModule.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ShaderModule.cpp; path = renderer/backend/ShaderModule.cpp; sourceTree = SOURCE_ROOT; };
+		D3BE77612E924E2697D60DCE /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/VertexLayout.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VertexLayout.cpp; path = renderer/backend/VertexLayout.cpp; sourceTree = SOURCE_ROOT; };
+		D3C30669810641DAAC3CBB1E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/PipelineDescriptor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PipelineDescriptor.h; path = renderer/PipelineDescriptor.h; sourceTree = SOURCE_ROOT; };
+		D58F27980F244FC0BAF11047 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CallbackCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CallbackCommand.cpp; path = renderer/CallbackCommand.cpp; sourceTree = SOURCE_ROOT; };
+		D62869B806D44636870776C4 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderCache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ShaderCache.h; path = renderer/backend/ShaderCache.h; sourceTree = SOURCE_ROOT; };
+		DA1085803E184042B619F4D6 /* /Users/huangshiping/Documents/GitHub/april/april/base/AutoreleasePool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AutoreleasePool.h; path = base/AutoreleasePool.h; sourceTree = SOURCE_ROOT; };
+		DB43C0CC2D144065AC470924 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = aprilMacros.h; path = base/aprilMacros.h; sourceTree = SOURCE_ROOT; };
+		DC8244E62F094063AC54E326 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Material.h; path = renderer/Material.h; sourceTree = SOURCE_ROOT; };
+		DCA5429FB0A648D3AF40F6C9 /* /Users/huangshiping/Documents/GitHub/april/april/base/Ref.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ref.cpp; path = base/Ref.cpp; sourceTree = SOURCE_ROOT; };
+		DF304917FB23494AA79183E8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Types.h; path = renderer/backend/Types.h; sourceTree = SOURCE_ROOT; };
+		E15EEE76A71F41508806E46A /* /Users/huangshiping/Documents/GitHub/april/april/renderer/GroupCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GroupCommand.cpp; path = renderer/GroupCommand.cpp; sourceTree = SOURCE_ROOT; };
+		E312DFFCB6C24389BAE0D979 /* /Users/huangshiping/Documents/GitHub/april/april/platform/Image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Image.cpp; path = platform/Image.cpp; sourceTree = SOURCE_ROOT; };
+		E5A247A57D9D43269F3F3822 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ProgramGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProgramGL.cpp; path = renderer/backend/opengl/ProgramGL.cpp; sourceTree = SOURCE_ROOT; };
+		E60E6B308A7647B285DB2768 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/QuadCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = QuadCommand.cpp; path = renderer/QuadCommand.cpp; sourceTree = SOURCE_ROOT; };
+		E7BC47B644C042B386BDA02B /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Pass.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Pass.h; path = renderer/Pass.h; sourceTree = SOURCE_ROOT; };
+		EA441416209A4F53A0609ADD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Shaders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Shaders.h; path = renderer/Shaders.h; sourceTree = SOURCE_ROOT; };
+		EC18E5EC3E684B0CBAE2E691 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/UtilsGL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UtilsGL.cpp; path = renderer/backend/opengl/UtilsGL.cpp; sourceTree = SOURCE_ROOT; };
+		F11AC9153A4340489B1C7BAC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Buffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Buffer.h; path = renderer/backend/Buffer.h; sourceTree = SOURCE_ROOT; };
+		F3138950A0B442DCAD03411A /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Program.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Program.cpp; path = renderer/backend/Program.cpp; sourceTree = SOURCE_ROOT; };
+		F45CD7CAEF324C4CA8E653E5 /* /Users/huangshiping/Documents/GitHub/april/april/math/Quaternion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Quaternion.cpp; path = math/Quaternion.cpp; sourceTree = SOURCE_ROOT; };
+		F5A611687BE94195A1FFA5E6 /* /Users/huangshiping/Documents/GitHub/april/april/math/Geometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Geometry.cpp; path = math/Geometry.cpp; sourceTree = SOURCE_ROOT; };
+		F8502119AEBF407282D973F0 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Scene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Scene.cpp; path = scene/Scene.cpp; sourceTree = SOURCE_ROOT; };
+		FA64E8CE6ED649979483D110 /* /Users/huangshiping/Documents/GitHub/april/april/platform/FileUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FileUtils.h; path = platform/FileUtils.h; sourceTree = SOURCE_ROOT; };
+		FB26802DE3664F94B6FC7568 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DepthStencilState.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DepthStencilState.h; path = renderer/backend/DepthStencilState.h; sourceTree = SOURCE_ROOT; };
+		FB6F2A20ED714F539E7F01B6 /* /Users/huangshiping/Documents/GitHub/april/april/base/Ref.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ref.h; path = base/Ref.h; sourceTree = SOURCE_ROOT; };
+		FBA8029F8EA24058A97879D2 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/CommandBufferGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CommandBufferGL.h; path = renderer/backend/opengl/CommandBufferGL.h; sourceTree = SOURCE_ROOT; };
+		FBBFD638CCAF4FA5952C9A52 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/UtilsGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = UtilsGL.h; path = renderer/backend/opengl/UtilsGL.h; sourceTree = SOURCE_ROOT; };
+		FCBEFE900C284218910B5151 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vertex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vertex.h; path = math/Vertex.h; sourceTree = SOURCE_ROOT; };
+		FDB28068EC3F4EE3B75F4C23 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Camera.cpp; path = scene/Camera.cpp; sourceTree = SOURCE_ROOT; };
+		FE52BB3D909143EE8F5F0379 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Shaders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shaders.cpp; path = renderer/Shaders.cpp; sourceTree = SOURCE_ROOT; };
+		FEC76EF71CE94FEC8BF21F35 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CustomCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CustomCommand.h; path = renderer/CustomCommand.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CA036ADF86C43D989DCE48A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08783ECECF0A451DB37EF07C /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				A5CED44C6FC04F359DFEFB1B /* /Users/huangshiping/Documents/GitHub/april/april/platform/ios/april_os_ios.h */,
+				3FC3AF5C31AC4FB89379DD21 /* /Users/huangshiping/Documents/GitHub/april/april/platform/ios/gles_ios.h */,
+			);
+			name = ios;
+			sourceTree = "<group>";
+		};
+		183F1CC28FA6470188E09AF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B321766B5E04C92ACD59930 /* /Users/huangshiping/Documents/GitHub/april/out/ios/CMakeFiles/april3d.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1CE1C8DC8D734DB48D59CF9D = {
+			isa = PBXGroup;
+			children = (
+				94C1050E048E4D209860E00B /* april3d */,
+				77420F4E9946406B880CB3AF /* ALL_BUILD */,
+				C2F03EE3CFA14E2DA1604CD2 /* Products */,
+				99B816EFACEC49FB8EB633D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DAA431B159C4451BB8E30BD /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				FDB28068EC3F4EE3B75F4C23 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Camera.cpp */,
+				96B5D3A921E84D15B7BEBE15 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Camera.h */,
+				418A5A93FDBF4E39A22859AF /* /Users/huangshiping/Documents/GitHub/april/april/scene/Node.cpp */,
+				084BBF459F1B43B5A027507B /* /Users/huangshiping/Documents/GitHub/april/april/scene/Node.h */,
+				F8502119AEBF407282D973F0 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Scene.cpp */,
+				589C23DF26124452BBA3394C /* /Users/huangshiping/Documents/GitHub/april/april/scene/Scene.h */,
+			);
+			name = scene;
+			sourceTree = "<group>";
+		};
+		5F70ED9F3C7741168A0617BE /* math */ = {
+			isa = PBXGroup;
+			children = (
+				2B83A36BB34342FEA48A95CB /* /Users/huangshiping/Documents/GitHub/april/april/math/AffineTransform.cpp */,
+				B2C49278D6344ECF96D959FB /* /Users/huangshiping/Documents/GitHub/april/april/math/AffineTransform.h */,
+				F5A611687BE94195A1FFA5E6 /* /Users/huangshiping/Documents/GitHub/april/april/math/Geometry.cpp */,
+				C95A8F0A66374050A4B9F87D /* /Users/huangshiping/Documents/GitHub/april/april/math/Geometry.h */,
+				4E307E212AEA4F3595AC0390 /* /Users/huangshiping/Documents/GitHub/april/april/math/Mat4.cpp */,
+				4E5856EA6D3D403BB938452B /* /Users/huangshiping/Documents/GitHub/april/april/math/Mat4.h */,
+				341B2995A82340CAB57866C3 /* /Users/huangshiping/Documents/GitHub/april/april/math/Math.h */,
+				12889450F61B4D999EADF62B /* /Users/huangshiping/Documents/GitHub/april/april/math/MathBase.h */,
+				774F0E07FA544E689AF8E8DD /* /Users/huangshiping/Documents/GitHub/april/april/math/MathUtil.cpp */,
+				32BFF3CCC75245EFABE1E4A0 /* /Users/huangshiping/Documents/GitHub/april/april/math/MathUtil.h */,
+				F45CD7CAEF324C4CA8E653E5 /* /Users/huangshiping/Documents/GitHub/april/april/math/Quaternion.cpp */,
+				3AB49C6FB929498C83C77B87 /* /Users/huangshiping/Documents/GitHub/april/april/math/Quaternion.h */,
+				2F3ADD45EA7B4A53B58C8A77 /* /Users/huangshiping/Documents/GitHub/april/april/math/TransformUtils.cpp */,
+				05D531847E4C4D108605DD27 /* /Users/huangshiping/Documents/GitHub/april/april/math/TransformUtils.h */,
+				83D18A45BF5F4524A8DB22A8 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec2.cpp */,
+				4AC5FF20357F4EEFAB298511 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec2.h */,
+				0249F18F7EE449E980257401 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec3.cpp */,
+				7D8A76E2BBBA4A31A2634C41 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec3.h */,
+				31CE1F8465FD418EBE0BF308 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec4.cpp */,
+				4E45BBF6FA5542D28CB44BEC /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec4.h */,
+				B3C704B666F24897A46B1B07 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vertex.cpp */,
+				FCBEFE900C284218910B5151 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vertex.h */,
+			);
+			name = math;
+			sourceTree = "<group>";
+		};
+		627B1D4FAC4243E988A36958 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				08783ECECF0A451DB37EF07C /* ios */,
+				CF41C7B51607472C85E7C5AE /* /Users/huangshiping/Documents/GitHub/april/april/platform/AdjustBuffer.h */,
+				961061A2BE754988BCD45703 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilGL.h */,
+				16739AEEF1A6487AB0E5D322 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilPlatformConfig.h */,
+				974996FE4CE544BBB2B6DC49 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilPlatformDefine.h */,
+				2CFA1AB4171049A6A40A8086 /* /Users/huangshiping/Documents/GitHub/april/april/platform/AprilPlatformMacros.h */,
+				B32A004E786447E2A0E8E45D /* /Users/huangshiping/Documents/GitHub/april/april/platform/FileUtils.cpp */,
+				FA64E8CE6ED649979483D110 /* /Users/huangshiping/Documents/GitHub/april/april/platform/FileUtils.h */,
+				E312DFFCB6C24389BAE0D979 /* /Users/huangshiping/Documents/GitHub/april/april/platform/Image.cpp */,
+				19B58E15A3C4401AA6D2F17D /* /Users/huangshiping/Documents/GitHub/april/april/platform/Image.h */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		699571EF6AD0444DAD297DAB /* renderer */ = {
+			isa = PBXGroup;
+			children = (
+				B2DD9A6ABA524395A51ACCB1 /* backend */,
+				D58F27980F244FC0BAF11047 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CallbackCommand.cpp */,
+				0352E8A1A28745C6818F2F5A /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CallbackCommand.h */,
+				ABBCF21931E84CBCA2C21931 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CustomCommand.cpp */,
+				FEC76EF71CE94FEC8BF21F35 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CustomCommand.h */,
+				E15EEE76A71F41508806E46A /* /Users/huangshiping/Documents/GitHub/april/april/renderer/GroupCommand.cpp */,
+				A565A49DDB2F4D2D8635580C /* /Users/huangshiping/Documents/GitHub/april/april/renderer/GroupCommand.h */,
+				02BD45D1C8EA44E788DF9DCD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Material.cpp */,
+				DC8244E62F094063AC54E326 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Material.h */,
+				97EF743BBB1C4957B60AB132 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/MeshCommand.cpp */,
+				2F83FF2A678B495D827BEEC7 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/MeshCommand.h */,
+				8B5B4031170F4C47A5AB2608 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Pass.cpp */,
+				E7BC47B644C042B386BDA02B /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Pass.h */,
+				D3C30669810641DAAC3CBB1E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/PipelineDescriptor.h */,
+				E60E6B308A7647B285DB2768 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/QuadCommand.cpp */,
+				354372CA80F94D9E94245E69 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/QuadCommand.h */,
+				48B4E8FD3D6D499697141FD8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommand.cpp */,
+				2CEF4BB5E9BE43E99085BBC5 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommand.h */,
+				BB64C46EFE984F6199CDAEE8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommandPool.h */,
+				C644279705444796B822638D /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderState.cpp */,
+				626AB5EA6BBC4CA2BAD44B72 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderState.h */,
+				B781EECC40164BE8B1473D43 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Renderer.cpp */,
+				A0953D40B74049799C8DF7DB /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Renderer.h */,
+				FE52BB3D909143EE8F5F0379 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Shaders.cpp */,
+				EA441416209A4F53A0609ADD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Shaders.h */,
+				AEEAA37C13414D8B946BAD29 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Technique.cpp */,
+				B3E0178330E647AE811336DA /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Technique.h */,
+				4CDACD0A6A82423F9FF749DD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Texture2D.cpp */,
+				45E968628DF0412F93CA0248 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Texture2D.h */,
+			);
+			name = renderer;
+			sourceTree = "<group>";
+		};
+		77420F4E9946406B880CB3AF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F052D027C4944B34891B8462 /* CMake Rules */,
+				1C482424E0DE449C835C6456 /* /Users/huangshiping/Documents/GitHub/april/april/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		94C1050E048E4D209860E00B /* april3d */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EAA4AC789475DB003B698 /* Source Files */,
+				183F1CC28FA6470188E09AF5 /* Resources */,
+				434C7951AFF84522BD44A1B1 /* /Users/huangshiping/Documents/GitHub/april/april/CMakeLists.txt */,
+			);
+			name = april3d;
+			sourceTree = "<group>";
+		};
+		99B816EFACEC49FB8EB633D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEA9DA46BC5F41B9A0FBC743 /* opengl */ = {
+			isa = PBXGroup;
+			children = (
+				4474DFF471714E6096BEFCAE /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/BufferGL.cpp */,
+				C30CD33F6D7F43B38375C6BD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/BufferGL.h */,
+				8E738D48CB89403789086FFC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/CommandBufferGL.cpp */,
+				FBA8029F8EA24058A97879D2 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/CommandBufferGL.h */,
+				A7EFD7092CE343CBB8BEAB3E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DepthStencilStateGL.cpp */,
+				A48397398043492BA5943784 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DepthStencilStateGL.h */,
+				4925E6FA11B7491F9BFFE35B /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceGL.cpp */,
+				64583632E0524F3BB6F7A1DB /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceGL.h */,
+				91205EF00EA647E984918632 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceInfoGL.cpp */,
+				31341F509F304EF1849E4DDC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceInfoGL.h */,
+				E5A247A57D9D43269F3F3822 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ProgramGL.cpp */,
+				7E5EE571DE3D4275B3F93194 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ProgramGL.h */,
+				7837B2B891F54E8D8AB95E60 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/RenderPipelineGL.cpp */,
+				40480953157D4EECBB1DDF8D /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/RenderPipelineGL.h */,
+				C9D5D34AF4B446A386928093 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ShaderModuleGL.cpp */,
+				A314E5A93D764A589D597CEC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ShaderModuleGL.h */,
+				8967B0AA864F48B2A543F178 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/TextureGL.cpp */,
+				B9735CA0CC234A0E9DA5BBD8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/TextureGL.h */,
+				EC18E5EC3E684B0CBAE2E691 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/UtilsGL.cpp */,
+				FBBFD638CCAF4FA5952C9A52 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/UtilsGL.h */,
+			);
+			name = opengl;
+			sourceTree = "<group>";
+		};
+		B2DD9A6ABA524395A51ACCB1 /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				AEA9DA46BC5F41B9A0FBC743 /* opengl */,
+				F11AC9153A4340489B1C7BAC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Buffer.h */,
+				3C76E86E835D4794AF081C23 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/CommandBuffer.cpp */,
+				C166747D0A324339BBF2F6AC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/CommandBuffer.h */,
+				17ECDEC1AD894A4AA9B059B1 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DepthStencilState.cpp */,
+				FB26802DE3664F94B6FC7568 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DepthStencilState.h */,
+				4706078EA49A4E5C8D5DFFA4 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Device.cpp */,
+				C1B6F2C8350C4AAD8E65A664 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Device.h */,
+				CDCD1E3B183D472DAC3ED5F9 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DeviceInfo.h */,
+				4696882BF1874C92943ECF14 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Macros.h */,
+				F3138950A0B442DCAD03411A /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Program.cpp */,
+				9FACF683A2F04D5FA75160BC /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Program.h */,
+				61D7CB908D8C41A49961C0F1 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramCache.cpp */,
+				C15510185D2142F491E285D5 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramCache.h */,
+				11F1B24F5EFC49BB9D39BD5E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramState.cpp */,
+				32DC52EB4F80419BA5420220 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramState.h */,
+				2C523FFF73AB465DABFE9B51 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RHI.h */,
+				14A85BD805BB4A16981481DD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPassDescriptor.cpp */,
+				4B38D31729F142FB97EC1C2B /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPassDescriptor.h */,
+				27CB2A5C6BD24F48BC21A071 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPipeline.h */,
+				25ED0D3E2A414FBC956C51AD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPipelineDescriptor.h */,
+				389BF4FB08694848A2C68CB8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderCache.cpp */,
+				D62869B806D44636870776C4 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderCache.h */,
+				D3679DE46EF84A5C8AB4856D /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderModule.cpp */,
+				37D2699736DE4FA1AA474CD7 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderModule.h */,
+				07300453D37F4707AA42FCEE /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Texture.cpp */,
+				2C2AC2E6C5D34937964C7C57 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Texture.h */,
+				886A4C7E91C246298C826FC9 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Types.cpp */,
+				DF304917FB23494AA79183E8 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Types.h */,
+				D3BE77612E924E2697D60DCE /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/VertexLayout.cpp */,
+				6827438847844EB682F2DD07 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/VertexLayout.h */,
+			);
+			name = backend;
+			sourceTree = "<group>";
+		};
+		C2F03EE3CFA14E2DA1604CD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B081D7820E84D00A43582F5 /* april3d */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE5EAA4AC789475DB003B698 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE479E1FF02449F8984F0A9 /* base */,
+				627B1D4FAC4243E988A36958 /* platform */,
+				699571EF6AD0444DAD297DAB /* renderer */,
+				5F70ED9F3C7741168A0617BE /* math */,
+				4DAA431B159C4451BB8E30BD /* scene */,
+				759B3CA2B1484F83A61F5D91 /* /Users/huangshiping/Documents/GitHub/april/april/april3d.cpp */,
+				C357D2841F414D13BE257ACE /* /Users/huangshiping/Documents/GitHub/april/april/april3d.h */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DCE479E1FF02449F8984F0A9 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				3726AC40CE74484C8EE5D62C /* /Users/huangshiping/Documents/GitHub/april/april/base/AutoreleasePool.cpp */,
+				DA1085803E184042B619F4D6 /* /Users/huangshiping/Documents/GitHub/april/april/base/AutoreleasePool.h */,
+				3D2E9B7EC53D4109BAF55B4D /* /Users/huangshiping/Documents/GitHub/april/april/base/Director.cpp */,
+				A977BFFDD73D429B88252333 /* /Users/huangshiping/Documents/GitHub/april/april/base/Director.h */,
+				DCA5429FB0A648D3AF40F6C9 /* /Users/huangshiping/Documents/GitHub/april/april/base/Ref.cpp */,
+				FB6F2A20ED714F539E7F01B6 /* /Users/huangshiping/Documents/GitHub/april/april/base/Ref.h */,
+				B552C01F45F341BCA1DE2ED9 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilConfig.h */,
+				DB43C0CC2D144065AC470924 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilMacros.h */,
+				31303AE9CAC54BB89F6A2F08 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilTypes.cpp */,
+				A4BCC326E562499B9E2E6BC2 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilTypes.h */,
+				7BCF8BD102CF4CB29D554E17 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilUtils.cpp */,
+				245A14E1944E4690AB173AF4 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilUtils.h */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		F052D027C4944B34891B8462 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		216B0DFB8D2A4CDA8F269DA4 /* april3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7FF6F733B840D0B0BBD564 /* Build configuration list for PBXNativeTarget "april3d" */;
+			buildPhases = (
+				71E86B4BCDA34208ACEB2F1C /* Sources */,
+				3CA036ADF86C43D989DCE48A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DAFCAC67E3A49219FE2F206 /* PBXTargetDependency */,
+			);
+			name = april3d;
+			productName = april3d;
+			productReference = 6B081D7820E84D00A43582F5 /* april3d */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2991B1EEC0A49C4A14126DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1310;
+			};
+			buildConfigurationList = 35549BA653CD4CC09398E834 /* Build configuration list for PBXProject "april3d_libs" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				78294F9783BB4B68B78C970D /* Debug */,
+				1D2F9FCAA0084E8CA8B66044 /* Release */,
+				A408DA3EC0884909915673C4 /* MinSizeRel */,
+				9FA84467A9D340C891479ADA /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1CE1C8DC8D734DB48D59CF9D;
+			projectDirPath = /Users/huangshiping/Documents/GitHub/april/april;
+			projectRoot = "";
+			targets = (
+				6781697CC92E49BCB18B05DE /* ALL_BUILD */,
+				3F8A9551809446009A8EE0B8 /* ZERO_CHECK */,
+				216B0DFB8D2A4CDA8F269DA4 /* april3d */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6B12D6D917A41E3FA8CB5872 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/huangshiping/Documents/GitHub/april/out/ios/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/huangshiping/Documents/GitHub/april/out/ios
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/huangshiping/Documents/GitHub/april/out/ios
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/huangshiping/Documents/GitHub/april/out/ios
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/huangshiping/Documents/GitHub/april/out/ios
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		7F9AD1D136071BB04DF6C97E /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/huangshiping/Documents/GitHub/april/out/ios/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/huangshiping/Documents/GitHub/april/out/ios
+  make -f /Users/huangshiping/Documents/GitHub/april/out/ios/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/huangshiping/Documents/GitHub/april/out/ios
+  make -f /Users/huangshiping/Documents/GitHub/april/out/ios/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/huangshiping/Documents/GitHub/april/out/ios
+  make -f /Users/huangshiping/Documents/GitHub/april/out/ios/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/huangshiping/Documents/GitHub/april/out/ios
+  make -f /Users/huangshiping/Documents/GitHub/april/out/ios/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E86B4BCDA34208ACEB2F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863444C5915E43F1B0CFE420 /* /Users/huangshiping/Documents/GitHub/april/april/april3d.cpp */,
+				ABEA4C1830C341FA95575BCE /* /Users/huangshiping/Documents/GitHub/april/april/base/AutoreleasePool.cpp */,
+				FD5B2E91956A4F66A9E054F2 /* /Users/huangshiping/Documents/GitHub/april/april/base/Director.cpp */,
+				C05C05B919AD4C5F861DD7C2 /* /Users/huangshiping/Documents/GitHub/april/april/base/Ref.cpp */,
+				32FEC7C489984427A888FEB7 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilTypes.cpp */,
+				7C9ECAEFA35A44A18F11FE87 /* /Users/huangshiping/Documents/GitHub/april/april/base/aprilUtils.cpp */,
+				1C8A184A6D694A479020E5E6 /* /Users/huangshiping/Documents/GitHub/april/april/math/AffineTransform.cpp */,
+				13C73697F41848E1979ADB45 /* /Users/huangshiping/Documents/GitHub/april/april/math/Geometry.cpp */,
+				02D08F2F8D4B4F3CBF0ABC5C /* /Users/huangshiping/Documents/GitHub/april/april/math/Mat4.cpp */,
+				9BF0EFE9318F4F94866ADB9C /* /Users/huangshiping/Documents/GitHub/april/april/math/MathUtil.cpp */,
+				B73534C08EFA45A48CE2FABA /* /Users/huangshiping/Documents/GitHub/april/april/math/Quaternion.cpp */,
+				FEC676E0A5F24268B6C02329 /* /Users/huangshiping/Documents/GitHub/april/april/math/TransformUtils.cpp */,
+				9EBAC70C259547E7810E4FB8 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec2.cpp */,
+				67FDF016DDB042658FC026CD /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec3.cpp */,
+				D947A0B6A47E45209E153860 /* /Users/huangshiping/Documents/GitHub/april/april/math/Vec4.cpp */,
+				7CF70987CC98455085E2D7CD /* /Users/huangshiping/Documents/GitHub/april/april/math/Vertex.cpp */,
+				E322BCE1A5EA431FA9F37E09 /* /Users/huangshiping/Documents/GitHub/april/april/platform/FileUtils.cpp */,
+				81A03D66580644FCB6D4CBC8 /* /Users/huangshiping/Documents/GitHub/april/april/platform/Image.cpp */,
+				F9B09022E0484B2B838B5CA7 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CallbackCommand.cpp */,
+				F6A7A838EF3A4B489C9DC70E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/CustomCommand.cpp */,
+				E2D68577D82D4F31A05DD49E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/GroupCommand.cpp */,
+				29AA929FD818419BB84EE5BD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Material.cpp */,
+				4DCE648DC42D4BDC93D8C188 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/MeshCommand.cpp */,
+				6E3D4AA774FF43B6AB0849B0 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Pass.cpp */,
+				84F83575D1944C70BD5DCDD9 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/QuadCommand.cpp */,
+				551B4711F93F4E6ABF130B53 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderCommand.cpp */,
+				24FF3D0B79CF47198AE081D9 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/RenderState.cpp */,
+				E56F1AF5D86F44A5AD40EBD7 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Renderer.cpp */,
+				AD4E20FF4FE243FA834BE2C5 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Shaders.cpp */,
+				BC00FAE068F442B694D6F791 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Technique.cpp */,
+				9481B0A621DD415BB3B56045 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/Texture2D.cpp */,
+				A6A73B9E60DE49DC8A972991 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/CommandBuffer.cpp */,
+				6E9730371FD14807ADA738B2 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/DepthStencilState.cpp */,
+				58B72B662DC44EB6BF9C85B0 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Device.cpp */,
+				4B8005A07AB54CEE8CBF4F39 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Program.cpp */,
+				D786303CF08B43AA8F1A4CD1 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramCache.cpp */,
+				9982AED60E65415A8C93A82B /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ProgramState.cpp */,
+				1F517FA1AF304CE98587FA38 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/RenderPassDescriptor.cpp */,
+				F47FD1003FCA4B36AD3EAB35 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderCache.cpp */,
+				D8D897A8759042398D2DDAD1 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/ShaderModule.cpp */,
+				02C10D8ACF4041889E7D4D40 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Texture.cpp */,
+				5D046DFD72FB4650AFA053D5 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/Types.cpp */,
+				0D1477FAF5B448CD8F178B72 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/VertexLayout.cpp */,
+				9AF9BDE1AC7A4B0FB9719CCA /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/BufferGL.cpp */,
+				D53FC0C1CA1C4B22BCD13262 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/CommandBufferGL.cpp */,
+				5B01EC454CC84E4B891DC146 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DepthStencilStateGL.cpp */,
+				A3ADC953A0A24E6C93CB91DD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceGL.cpp */,
+				50846FD9AD1E44D5A622243E /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/DeviceInfoGL.cpp */,
+				E688C9E322D44B4BBADE0348 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ProgramGL.cpp */,
+				8496ABABDE734BC0881F3817 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/RenderPipelineGL.cpp */,
+				7EFE24FAF8A749B9B5D95C37 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/ShaderModuleGL.cpp */,
+				1CDFCE9A52B14F98B4EAB3F4 /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/TextureGL.cpp */,
+				023622F86E454003B66894FD /* /Users/huangshiping/Documents/GitHub/april/april/renderer/backend/opengl/UtilsGL.cpp */,
+				182943A1B40047F690276632 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Camera.cpp */,
+				8804E80AF43343F5B02859FA /* /Users/huangshiping/Documents/GitHub/april/april/scene/Node.cpp */,
+				20665CA9551749CBB484D487 /* /Users/huangshiping/Documents/GitHub/april/april/scene/Scene.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DAFCAC67E3A49219FE2F206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8A9551809446009A8EE0B8 /* ZERO_CHECK */;
+			targetProxy = 64C8A0A29F45435BB13CC192 /* PBXContainerItemProxy */;
+		};
+		1979BABBEDD04D4DB648336F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8A9551809446009A8EE0B8 /* ZERO_CHECK */;
+			targetProxy = D84D710286F749DBB7DDF17E /* PBXContainerItemProxy */;
+		};
+		7647CC8DC1F94C8788208F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 216B0DFB8D2A4CDA8F269DA4 /* april3d */;
+			targetProxy = 351CF3E35450437D88B7135B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C80FF8954DB419F9F15AC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1B8E0C2DAF304ABFA852F6AD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3E31C7D8E8AC477CA1ABCD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7,armv7s,arm64,x86_64);
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/huangshiping/Documents/GitHub/april/out/ios/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/april,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = april3d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3E8F91F20AD24E9A91BD668A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		67C5DCDF531044B9864B7F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		82E6DE0CB75147879539ABAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7,armv7s,arm64,x86_64);
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/huangshiping/Documents/GitHub/april/out/ios/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/april,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = april3d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8A6074B0EFCC41FBACEBB435 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64 x86_64";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios/build;
+			};
+			name = RelWithDebInfo;
+		};
+		8D2C10A6F8C74BD6A9C0D1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AD76FD09EFE849CD8284C018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B8C367715A604C6B8468F12E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CAB3A384B00F400DBE34D7F6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CC1A53D4C6D741BD92EF1946 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64 x86_64";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios/build;
+			};
+			name = MinSizeRel;
+		};
+		DD8EDFD87C684EBAAA2D3151 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7,armv7s,arm64,x86_64);
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/huangshiping/Documents/GitHub/april/out/ios/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/april,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = april3d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E2C5ADA0EE85483F91EA2105 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7,armv7s,arm64,x86_64);
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/huangshiping/Documents/GitHub/april/out/ios/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/april,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = april3d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F2FEC613950341E4BC2ECD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64 x86_64";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios/build;
+			};
+			name = Release;
+		};
+		F39C6A49EEF14680ABD3A16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64 x86_64";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/huangshiping/Documents/GitHub/april/out/ios/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C7FF6F733B840D0B0BBD564 /* Build configuration list for PBXNativeTarget "april3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E6DE0CB75147879539ABAA /* Debug */,
+				3E31C7D8E8AC477CA1ABCD2E /* Release */,
+				DD8EDFD87C684EBAAA2D3151 /* MinSizeRel */,
+				E2C5ADA0EE85483F91EA2105 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		30092FEFE3004D4D92B0FF9C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD76FD09EFE849CD8284C018 /* Debug */,
+				0C80FF8954DB419F9F15AC96 /* Release */,
+				CAB3A384B00F400DBE34D7F6 /* MinSizeRel */,
+				3E8F91F20AD24E9A91BD668A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		35549BA653CD4CC09398E834 /* Build configuration list for PBXProject "april3d_libs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39C6A49EEF14680ABD3A16D /* Debug */,
+				F2FEC613950341E4BC2ECD05 /* Release */,
+				CC1A53D4C6D741BD92EF1946 /* MinSizeRel */,
+				8A6074B0EFCC41FBACEBB435 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3DBB671F55284CCDBCDF30D5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2C10A6F8C74BD6A9C0D1CA /* Debug */,
+				67C5DCDF531044B9864B7F11 /* Release */,
+				B8C367715A604C6B8468F12E /* MinSizeRel */,
+				1B8E0C2DAF304ABFA852F6AD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2991B1EEC0A49C4A14126DA /* Project object */;
+}

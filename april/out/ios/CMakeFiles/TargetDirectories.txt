@@ -1,0 +1,3 @@
+/Users/huangshiping/Documents/GitHub/april/out/ios/CMakeFiles/april3d.dir
+/Users/huangshiping/Documents/GitHub/april/out/ios/CMakeFiles/ALL_BUILD.dir
+/Users/huangshiping/Documents/GitHub/april/out/ios/CMakeFiles/ZERO_CHECK.dir
